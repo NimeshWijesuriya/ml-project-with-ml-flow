@@ -7,39 +7,51 @@ import os
 import logging
 import numpy as np
 from src.mlProject.entity.config_entity import DataTransformationConfig
+from sklearn.preprocessing import MinMaxScaler
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 class DataTransformation:
-    def __init__(self, config: DataTransformationConfig):
+    def __init__(self, config):
         self.config = config
 
     def train_test_spliting(self):
         # Load the data
         data = pd.read_csv(self.config.data_path)
 
-        data['Churn'] = np.where(data.Churn == 'Yes',1,0)
+        # Transform the target variable and create tenure groups
+        data['Churn'] = np.where(data.Churn == 'Yes', 1, 0)
         labels = ["{0} - {1}".format(i, i + 11) for i in range(1, 72, 12)]
         data['tenure_group'] = pd.cut(data.tenure, range(1, 80, 12), right=False, labels=labels)
         
-        # Store the ID column separately
+        # Store columns separately
         id_column = data.pop('customerID')
         tenure_column = data.pop('tenure')
         monthly_charge_column = data.pop('MonthlyCharges')
-        TotalCharges_column = data.pop('TotalCharges')
+        total_charges_column = data.pop('TotalCharges')
+
+        # Convert to numeric and handle errors
+        data['MonthlyCharges'] = pd.to_numeric(monthly_charge_column, errors='coerce')
+        data['TotalCharges'] = pd.to_numeric(total_charges_column, errors='coerce')
 
         # Identify categorical columns
         categorical_columns = data.select_dtypes(include=['object', 'category']).columns
 
         # Create dummy variables for categorical columns
         data_dummies = pd.get_dummies(data, columns=categorical_columns)
-        data_dummies = data_dummies.replace({True: 1, False: 0})
-        # Reattach the ID column
-        data_dummies['MonthlyCharges'] = monthly_charge_column
-        data_dummies['TotalCharges'] = TotalCharges_column
 
+        # Initialize and apply MinMaxScaler
+        scaler = MinMaxScaler()
+
+        # Handle non-numeric values by dropping rows with NaN in scaled columns
+        data_dummies = data_dummies.dropna(subset=['MonthlyCharges', 'TotalCharges'])
+
+        # Scale all numerical columns
+        numeric_columns = ['MonthlyCharges', 'TotalCharges']
+        data_dummies[numeric_columns] = scaler.fit_transform(data_dummies[numeric_columns])
+        data_dummies = data_dummies.replace({True: 1, False: 0})
         # Split the data into training and test sets (0.75, 0.25 split)
         train, test = train_test_split(data_dummies, test_size=0.25, random_state=42)
 
