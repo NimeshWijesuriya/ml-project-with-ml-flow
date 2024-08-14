@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/User/OneDrive/Desktop/ml-project-with-ml-flow-1/mlruns/0/1c999e8914cb41bba5e813bba2a4ace4/artifacts
+end_time: 1723642321472
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1c999e8914cb41bba5e813bba2a4ace4
+run_name: valuable-fish-593
+run_uuid: 1c999e8914cb41bba5e813bba2a4ace4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723642310470
+status: 3
+tags: []
+user_id: User

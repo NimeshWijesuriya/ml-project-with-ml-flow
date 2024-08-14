@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/User/OneDrive/Desktop/ml-project-with-ml-flow-1/mlruns/0/ccc73950a18a48be87848052fb72a027/artifacts
+end_time: 1723621896428
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ccc73950a18a48be87848052fb72a027
+run_name: stately-perch-570
+run_uuid: ccc73950a18a48be87848052fb72a027
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723621886195
+status: 3
+tags: []
+user_id: User
