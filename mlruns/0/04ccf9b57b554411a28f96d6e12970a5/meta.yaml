@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/User/OneDrive/Desktop/ml-project-with-ml-flow-1/mlruns/0/04ccf9b57b554411a28f96d6e12970a5/artifacts
+end_time: 1723605408306
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 04ccf9b57b554411a28f96d6e12970a5
+run_name: bemused-grouse-512
+run_uuid: 04ccf9b57b554411a28f96d6e12970a5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723605389221
+status: 3
+tags: []
+user_id: User

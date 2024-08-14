@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/User/OneDrive/Desktop/ml-project-with-ml-flow-1/mlruns/0/e1bb018be95d4a558c79163839f70a34/artifacts
+end_time: 1723570215788
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e1bb018be95d4a558c79163839f70a34
+run_name: fortunate-yak-630
+run_uuid: e1bb018be95d4a558c79163839f70a34
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723570204189
+status: 3
+tags: []
+user_id: User

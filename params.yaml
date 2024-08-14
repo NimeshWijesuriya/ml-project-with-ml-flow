@@ -1,8 +1,8 @@
 XGBoost:
-  learning_rate: 0.01 
-  max_depth : 7 
+  learning_rate: 0.02 
+  max_depth : 9 
   n_estimators: 300
-  subsample: 0.8
+  subsample: 0.5
 
 
   

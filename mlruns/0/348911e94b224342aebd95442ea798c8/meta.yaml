@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/User/OneDrive/Desktop/ml-project-with-ml-flow-1/mlruns/0/348911e94b224342aebd95442ea798c8/artifacts
+end_time: 1723568934385
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 348911e94b224342aebd95442ea798c8
+run_name: skillful-slug-916
+run_uuid: 348911e94b224342aebd95442ea798c8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723568922875
+status: 3
+tags: []
+user_id: User

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/User/OneDrive/Desktop/ml-project-with-ml-flow-1/mlruns/0/a298375d58254fbaac1eea0317d7d7d2/artifacts
+end_time: 1723605312597
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a298375d58254fbaac1eea0317d7d7d2
+run_name: dashing-crab-679
+run_uuid: a298375d58254fbaac1eea0317d7d7d2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723605302407
+status: 3
+tags: []
+user_id: User

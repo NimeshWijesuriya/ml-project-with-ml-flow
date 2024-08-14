@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/User/OneDrive/Desktop/ml-project-with-ml-flow-1/mlruns/0/c642b5b984104682b06aca0187d52aaa/artifacts
+end_time: 1723569272748
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c642b5b984104682b06aca0187d52aaa
+run_name: brawny-robin-77
+run_uuid: c642b5b984104682b06aca0187d52aaa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723569262058
+status: 3
+tags: []
+user_id: User

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/User/OneDrive/Desktop/ml-project-with-ml-flow-1/mlruns/0/255791e534664a738428153df83cebf8/artifacts
+end_time: 1723568400214
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 255791e534664a738428153df83cebf8
+run_name: amazing-hen-6
+run_uuid: 255791e534664a738428153df83cebf8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723568389814
+status: 3
+tags: []
+user_id: User

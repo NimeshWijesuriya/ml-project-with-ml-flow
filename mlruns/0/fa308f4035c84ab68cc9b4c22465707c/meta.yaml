@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/User/OneDrive/Desktop/ml-project-with-ml-flow-1/mlruns/0/fa308f4035c84ab68cc9b4c22465707c/artifacts
+end_time: 1723568478255
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fa308f4035c84ab68cc9b4c22465707c
+run_name: respected-panda-394
+run_uuid: fa308f4035c84ab68cc9b4c22465707c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723568467568
+status: 3
+tags: []
+user_id: User

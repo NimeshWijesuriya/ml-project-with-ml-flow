@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/User/OneDrive/Desktop/ml-project-with-ml-flow-1/mlruns/0/55544fe177e84a8d8cdeeb8265809bfe/artifacts
+end_time: 1723569006767
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 55544fe177e84a8d8cdeeb8265809bfe
+run_name: thoughtful-mouse-45
+run_uuid: 55544fe177e84a8d8cdeeb8265809bfe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723568995430
+status: 3
+tags: []
+user_id: User

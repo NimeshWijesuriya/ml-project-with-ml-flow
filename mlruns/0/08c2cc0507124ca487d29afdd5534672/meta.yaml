@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/User/OneDrive/Desktop/ml-project-with-ml-flow-1/mlruns/0/08c2cc0507124ca487d29afdd5534672/artifacts
+end_time: 1723569662741
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 08c2cc0507124ca487d29afdd5534672
+run_name: popular-fox-756
+run_uuid: 08c2cc0507124ca487d29afdd5534672
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723569652652
+status: 3
+tags: []
+user_id: User
