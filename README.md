@@ -1,6 +1,10 @@
 # ml-project-with-ml-flow
 
-[Watch the demo video](https://github.com/NimeshWijesuriya/ml-project-with-ml-flow/blob/main/Demo.mp4)
+<video width="600" controls>
+  <source src="https://github.com/NimeshWijesuriya/ml-project-with-ml-flow/blob/main/Demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 
 ## Workflows
 
