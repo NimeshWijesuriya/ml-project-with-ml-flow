@@ -1,5 +1,6 @@
 # ml-project-with-ml-flow
 
+[Watch the demo video](https://github.com/NimeshWijesuriya/ml-project-with-ml-flow/blob/main/Demo.mp4)
 
 ## Workflows
 
